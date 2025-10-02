@@ -50,17 +50,17 @@ Comparación con y → Pérdida L → Gradientes → Actualización → Repetir
 1. **Propagación hacia adelante (Forward Pass)**  
    - Operación lineal:  
    <p align="center">
-     <img src="img/3.png" alt="Operación lineal" width="450"/>
+     <img src="img/3.png" alt="Operación lineal" width="375"/>
    </p>
 
    - Activación no lineal (sigmoide):  
    <p align="center">
-     <img src="img/1.png" alt="Función de activación sigmoide" width="450"/>
+     <img src="img/1.png" alt="Función de activación sigmoide" width="375"/>
    </p>
 
 2. **Derivada de la sigmoide**  
    <p align="center">
-     <img src="img/2.png" alt="Derivada de la sigmoide" width="450"/>
+     <img src="img/2.png" alt="Derivada de la sigmoide" width="375"/>
    </p>
 
 3. **Función de pérdida (Error cuadrático medio)**  
