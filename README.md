@@ -49,22 +49,34 @@ Comparación con y → Pérdida L → Gradientes → Actualización → Repetir
 
 1. **Propagación hacia adelante (Forward Pass)**  
    - Operación lineal:  
-   ![Operación lineal](img/3.png)
+   <p align="center">
+     <img src="img/3.png" alt="Operación lineal" width="450"/>
+   </p>
 
    - Activación no lineal (sigmoide):  
-   ![Función de activación sigmoide](img/1.png)
+   <p align="center">
+     <img src="img/1.png" alt="Función de activación sigmoide" width="450"/>
+   </p>
 
 2. **Derivada de la sigmoide**  
-   ![Derivada de la sigmoide](img/2.png)
+   <p align="center">
+     <img src="img/2.png" alt="Derivada de la sigmoide" width="450"/>
+   </p>
 
 3. **Función de pérdida (Error cuadrático medio)**  
-   ![Función de pérdida](img/4.png)
+   <p align="center">
+     <img src="img/4.png" alt="Función de pérdida" width="450"/>
+   </p>
 
 4. **Backpropagation (Regla de la cadena)**  
-   ![Regla de la cadena en backpropagation](img/5.png)
+   <p align="center">
+     <img src="img/5.png" alt="Regla de la cadena en backpropagation" width="450"/>
+   </p>
 
 5. **Actualización de parámetros (Gradiente descendente)**  
-   ![Actualización de parámetros](img/6.png)
+   <p align="center">
+     <img src="img/6.png" alt="Actualización de parámetros" width="450"/>
+   </p>
 
 ---
 
