@@ -40,7 +40,46 @@ Las redes neuronales están directamente relacionadas con conceptos de cálculo 
 
 ### Diagrama conceptual
 
-Entrada (X) -> Multiplicación por W1 y suma de b1 -> Función de activación (sigmoide) → Capa oculta (a1) -> Multiplicación por W2 y suma de b2 -> Función de activación (sigmoide) → Salida (a2) -> Comparación con y (valor esperado) -> Función de pérdida L = (y - a2)² -> Cálculo de gradiente (derivadas parciales, regla de la cadena) -> Actualización de parámetros (W, b) con gradiente descendente -> Repetir hasta minimizar el error
+           ┌────────────┐
+   X ----> │  W1, b1    │
+           └─────┬──────┘
+                 │
+                 ▼
+           ┌────────────┐
+           │  Sigmoide  │
+           └─────┬──────┘
+                 │
+                 ▼
+           ┌────────────┐
+           │   a1       │
+           └─────┬──────┘
+                 │
+                 ▼
+           ┌────────────┐
+           │  W2, b2    │
+           └─────┬──────┘
+                 │
+                 ▼
+           ┌────────────┐
+           │  Sigmoide  │
+           └─────┬──────┘
+                 │
+                 ▼
+           ┌────────────┐
+           │   a2       │
+           └─────┬──────┘
+                 │
+                 ▼
+   y ---> Comparación ---> Pérdida L = (y - a2)²
+                 │
+                 ▼
+     Gradientes (regla de la cadena)
+                 │
+                 ▼
+  Actualización de parámetros (W, b)
+                 │
+                 ▼
+             Repetir ciclo
 
 
 ---
