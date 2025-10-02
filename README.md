@@ -183,7 +183,7 @@ En cada ciclo:
 
 2) Evalúa la pérdida.
 
-3)Propaga el error hacia atrás.
+3) Propaga el error hacia atrás.
 
 4) Ajusta los parámetros.
 
