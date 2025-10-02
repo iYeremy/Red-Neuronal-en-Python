@@ -49,30 +49,22 @@ Comparación con y → Pérdida L → Gradientes → Actualización → Repetir
 
 1. **Propagación hacia adelante (Forward Pass)**  
    - Operación lineal:  
-     \[
-     z = W \cdot x + b
-     \]
+   ![Operación lineal](img/3.png)
+
    - Activación no lineal (sigmoide):  
-     \[
-     a = \sigma(z) = \frac{1}{1 + e^{-z}}
-     \]
+   ![Función de activación sigmoide](img/1.png)
 
-2. **Función de pérdida**  
-   Error cuadrático medio:  
-   \[
-   L = \frac{1}{n}\sum (y - \hat{y})^2
-   \]
+2. **Derivada de la sigmoide**  
+   ![Derivada de la sigmoide](img/2.png)
 
-3. **Backpropagation**  
-   Aplicamos la regla de la cadena:  
-   \[
-   \frac{\partial L}{\partial w_{ij}} = \frac{\partial L}{\partial a} \cdot \frac{\partial a}{\partial z} \cdot \frac{\partial z}{\partial w_{ij}}
-   \]
+3. **Función de pérdida (Error cuadrático medio)**  
+   ![Función de pérdida](img/4.png)
 
-4. **Actualización de parámetros (Gradiente descendente)**  
-   \[
-   w := w - \eta \frac{\partial L}{\partial w}
-   \]
+4. **Backpropagation (Regla de la cadena)**  
+   ![Regla de la cadena en backpropagation](img/5.png)
+
+5. **Actualización de parámetros (Gradiente descendente)**  
+   ![Actualización de parámetros](img/6.png)
 
 ---
 
